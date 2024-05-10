@@ -4,7 +4,7 @@ from scipy.optimize import fsolve
 import scipy.optimize as opt
 from scipy.stats import norm
 
-from fx_vol_surf.Pricing.FX_Black_Scholes import Black_Scholes as BS
+from FX_Pricing.FX_Black_Scholes import Black_Scholes as BS
 
 import warnings
 warnings.filterwarnings("ignore", category=RuntimeWarning)
